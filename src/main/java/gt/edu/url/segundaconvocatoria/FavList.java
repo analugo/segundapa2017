@@ -24,6 +24,7 @@ public class FavList implements FavoriteList{
     public int getAcces(){
         int e;
         //return e;
+        return 0;
     }
         
       

@@ -13,6 +13,7 @@ package gt.edu.url.segundaconvocatoria;
  */
 public class BlueStack implements DoubleStack {
 
+    
       
     public int blueSize(){
         return 0;
