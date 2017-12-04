@@ -5,20 +5,12 @@
  */
 package gt.edu.url.segundaconvocatoria;
 
-
-
 /**
  *
  * @author Ana Godínez
  */
-public class BlueStack implements DoubleStack {
+public class RedStack implements DoubleStack {
 
-      
-    public int blueSize(){
-        return 0;
-        
-    }
-    
     @Override
     public boolean isEmpty() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -45,6 +37,11 @@ public class BlueStack implements DoubleStack {
     }
 
     @Override
+    public int blueSize() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
     public void bluePush(Object e) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -58,6 +55,6 @@ public class BlueStack implements DoubleStack {
     public Object bluePop() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-	
+    
     
 }
